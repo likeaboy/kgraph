@@ -8,8 +8,10 @@
 使用KGraph-framework绘制gexf图文件在echart中旋绕的效果：
 ![image](http://github.com/likeaboy/kgraph/raw/master/img/echart_show.png)
 
-## 使用
+## 例子
 可以参见项目源码中的Demo类：
+
 GetNodeDemo为根据节点数据生成单个节点，添加到Graph内存模型中，并输出到图描述文件gexf文件里。
+
 GetRelatedNodeDemo以GetNodeDemo生成的gexf文件为基础，读入相关节点刷新Graph内存模型，并
 生成新的gexf文件。
