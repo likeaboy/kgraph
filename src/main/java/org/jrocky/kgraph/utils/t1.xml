@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd"
+	version="1.2">
+	<meta lastmodifieddate="2017-08-12">
+		<creator>Sigma.js</creator>
+		<description>This is an awesome graph!</description>
+	</meta>
+	<graph mode="static">
+		<attributes class="node" />
+		<attributes class="edge" />
+		<nodes>
+			<node id="8caee5f4036288ad779fc06172323032" label="王文明">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="-243.19473091627074" y="235" />
+				<viz:size value="20" />
+			</node>
+			<node id="afbae5fb9dea710cbc1263e70a289cb6" label="王兰荣">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="194.94947245273232" y="-256" />
+				<viz:size value="20" />
+			</node>
+			<node id="c741aaa374840803476434faff26e991" label="王良伟">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="194.94003119489773" y="208" />
+				<viz:size value="20" />
+			</node>
+			<node id="3d87a1c94044dd1db9c3b8e1c75d1fa5" label="王毅利">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="145.67879290360074" y="157" />
+				<viz:size value="20" />
+			</node>
+			<node id="eeda55d550f1ebaf581e93d3301f8fe1" label="王朗保">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="169.8739715420203" y="181" />
+				<viz:size value="20" />
+			</node>
+			<node id="39630b5aa579cb8cf6cd65e5bb934d91" label="王凤嘉">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="189.2300877351716" y="202" />
+				<viz:size value="20" />
+			</node>
+			<node id="dce5c566ae160c3a387c8ef4de8e361e" label="王玲霄">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="205.36017803357373" y="218" />
+				<viz:size value="20" />
+			</node>
+			<node id="91b6dd32c37c012af9002b1364436b29" label="王眉苑">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="219.18598930559025" y="231" />
+				<viz:size value="20" />
+			</node>
+			<node id="13029e79918a2dd5a13e5253187ee17a" label="王淑梅">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="231.28356559899825" y="243" />
+				<viz:size value="20" />
+			</node>
+			<node id="bf7e1db971f1cbf078b826938765bb39" label="周行善">
+				<viz:color r="0" g="193" b="222" />
+				<viz:position x="243.19473091627074" y="256" />
+				<viz:size value="20" />
+			</node>
+		</nodes>
+		<edges />
+	</graph>
+</gexf>
