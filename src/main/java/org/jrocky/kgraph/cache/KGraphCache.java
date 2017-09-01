@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 /**
  * GEXF布局存储全局表
- * @author wangzhijie
+ * @author Rocky.Wang
  *
  */
 public class KGraphCache {

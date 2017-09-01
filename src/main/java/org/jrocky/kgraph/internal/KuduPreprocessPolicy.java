@@ -9,6 +9,7 @@ import org.jrocky.kgraph.core.PreparedEdge;
 import org.jrocky.kgraph.core.PreparedNode;
 import org.jrocky.kgraph.core.exception.GlobalVariableInvalidException;
 import org.jrocky.kgraph.core.policy.IPreprocessPolicy;
+import org.jrocky.kgraph.core.NodeType;
 
 
 public class KuduPreprocessPolicy implements IPreprocessPolicy{
@@ -52,10 +53,11 @@ public class KuduPreprocessPolicy implements IPreprocessPolicy{
 		PreparedNode preparedNode;
 		for (Object kdNode : kuduNodes) {
 			if(kdNode!=null){
-				Map<String, Object> objMap = (Map<String, Object>) kdNode;
-				preparedNode = new PreparedNode(objMap.get("objectId").toString(),
-						objMap.get("objectName").toString(),NodeType.getNodeType(objMap.get("objectType").toString()),
-						objMap.get("objectIcon").toString());
+				KuduNode kObject = (KuduNode)kdNode;
+//				Map<String, Object> objMap = (Map<String, Object>) kdNode;
+				preparedNode = new PreparedNode(kObject.getObjectId(),
+						kObject.getObjectName(),NodeType.getNodeType(kObject.getObjectType()),
+						kObject.getObjectIcon());
 				preparedNodeList.add(preparedNode);
 			}
 		}
@@ -63,7 +65,7 @@ public class KuduPreprocessPolicy implements IPreprocessPolicy{
 		PreparedEdge preparedEdge;
 		for(Object kuduLink : kuduLinks){
 			if(kuduLink != null){
-				ObLink e = (ObLink)kuduLink;
+				KuduLink e = (KuduLink)kuduLink;
 				preparedEdge = new PreparedEdge(e.getParentId(),e.getChildrenId(),e.getLinkName());
 				preparedEdgeList.add(preparedEdge);
 			}
