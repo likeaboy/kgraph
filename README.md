@@ -5,7 +5,7 @@
 ![image1](http://github.com/likeaboy/kgraph/raw/master/img/gephi_show.png)
 ![image2](http://github.com/likeaboy/kgraph/raw/master/img/490点分析图.png)
 
-使用KGraph-framework绘制gexf图文件在echart中旋绕的效果：
+使用KGraph-framework绘制gexf图文件在echart中渲染的效果：
 ![image](http://github.com/likeaboy/kgraph/raw/master/img/echart_show.png)
 
 ## 例子
